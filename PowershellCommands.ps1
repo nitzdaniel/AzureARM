@@ -9,4 +9,4 @@ New-AzureRmResourceGroupDeployment -Name TestVNetDeploxment -ResourceGroupName r
 
 
 # ARM Template SQL Database
-New-AzureRmResourceGroupDeployment -Name SQLDatabase -ResourceGroupName rg_Arm -TemplateFile "F:\GitHub\AzureARM\Templates\SQL Database\NewSQLDatabase.json" -TemplateParameterFile "F:\GitHub\AzureARM\Parameters\SQL Database\Parameter-NewSQLDatabase.json"
+New-AzureRmResourceGroupDeployment -Name SQLDatabase -ResourceGroupName rg_Z2010 -TemplateFile "F:\GitHub\AzureARM\Templates\SQL Database\NewSQLDatabase.json" -TemplateParameterFile "F:\GitHub\AzureARM\Parameters\SQL Database\Parameter-NewSQLDatabase.json"
